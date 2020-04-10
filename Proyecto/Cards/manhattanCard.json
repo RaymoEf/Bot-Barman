@@ -1,0 +1,95 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Manhattan"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "http://winedharma.com/sites/winedharma.com/files/imagecache/auto-768/story/1397-cocktail-manhattan-originale-recipe-cocktail-whskey-and-vermouth.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Whiskey",
+          "value": "2 onzas"
+        },
+        {
+          "title": "Vermu italiano",
+          "value": "1 onza"
+        },
+        {
+          "title": "Bitter de naranja",
+          "value": "2 pizcas"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-En un vaso grande con hielo agregar whiskey, vermu y las dos pizcas de bitter de naranja",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Revolver con una cuchara por un minuto para que se enfrie",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "colar en una copa coctelera o en un vaso rock class y adornar con cerezas",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Añadir Crema Batida"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

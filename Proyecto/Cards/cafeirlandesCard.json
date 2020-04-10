@@ -1,0 +1,103 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Cafe Irlandes"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "http://2.bp.blogspot.com/-Y6FhBUG7wp0/UF1OyeYGrDI/AAAAAAAACCI/3H60SB1S0AA/s1600/DSC01589.JPG",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Copa para capuccino",
+          "value": "1"
+        },
+        {
+          "title": "Expresso doble",
+          "value": "1"
+        },
+        {
+          "title": "Whiskey",
+          "value": "30 ml"
+        },
+        {
+          "title": "Azucar",
+          "value": "6gr"
+        },
+        {
+          "title": "Crema Batida",
+          "value": "al gusto"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar a la copa el whiskey",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Añadir el azucar y revolver",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Calentar con el vaporizador de una maquina de cafe y lentamente agregar el expresso",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Añadir Crema Batida"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
