@@ -1,0 +1,91 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Vodka Tonic"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "http://www.thedrinkkings.com/wp-content/uploads/2014/06/Vodka-Tonic-3-630x1210.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Vodka",
+          "value": "45ml"
+        },
+        {
+          "title": "Zumo de Limon",
+          "value": "Al gusto"
+        },
+        {
+          "title": "Agua tonica",
+          "value": "Al gusto"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir el vodka en un vaso alto con hielo",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Acompañar con agua tonica",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar el zumo de limon",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

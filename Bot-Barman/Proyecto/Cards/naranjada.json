@@ -1,0 +1,91 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Naranjada"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://paragourmet.files.wordpress.com/2012/05/sparkling-orangeade-0503-l.jpeg?w=584",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Naranjas",
+          "value": "12 piezas"
+        },
+        {
+          "title": "Azúcar",
+          "value": "200 gramos"
+        },
+        {
+          "title": "Agua",
+          "value": "1 litro"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Exprimir las naranjas y agregar 1 litro de agua",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar el jugo una jarra con hielos",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Decora al gusto",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

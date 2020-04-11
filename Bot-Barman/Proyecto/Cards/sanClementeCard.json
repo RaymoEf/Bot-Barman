@@ -1,0 +1,86 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "San Clemente"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://cocteles.online/wp-content/uploads/2018/12/san-clemente.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "jugo de Naranjas",
+          "value": "120ml"
+        },
+        {
+          "title": "jugo de limón amargo",
+          "value": "90ml"
+        },
+        {
+          "title": "agua mineral",
+          "value": "fill"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar los ingredientes en un recipiente con hielo",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Mezclar y decorar al gusto",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

@@ -1,0 +1,95 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Laguna Azul"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://www.thecocktailproject.com/sites/default/files/styles/standard-recipe-image-mobile/public/DK_Michigan_BluLagn_R1_Slider.jpg?itok=o7mE0ijm",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Vodka",
+          "value": "60ml"
+        },
+        {
+          "title": "Jugo de Limon",
+          "value": "un chorrito"
+        },
+        {
+          "title": "almibar",
+          "value": "7ml"
+        },
+        {
+          "title": "Curacao azul",
+          "value": "30ml"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir los ingredientes en un vaso alto con hielo",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Mezclar los ingredientes con unc cuchara",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Decorar con una guinda de naranja o piña",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

@@ -1,0 +1,100 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Mojito sin alcohol"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://t1.rg.ltmcdn.com/es/images/4/2/3/img_mojito_sin_alcohol_53324_paso_5_600.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Lima",
+          "value": "1 pieza partida en seis"
+        },
+        {
+          "title": "Menta fresca",
+          "value": "15 hojas"
+        },
+        {
+          "title": "Azúcar moreno",
+          "value": "una chucharada sopera"
+        },
+        {
+          "title": "Agua mineral",
+          "value": "Un vaso"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-En un recipiente agregar la lima partida en 6 piezas con el azúcar y trirurar ",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar las hojas de menta y volver a triturar suavemente sin exceder",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar hielo y la soda",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Decorar al gusto",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

@@ -1,0 +1,91 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Limonada"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://www.superama.com.mx/views/micrositio/recetas/images/cocteleria/limonada/Web_fotoreceta.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Limones",
+          "value": "8 piezas"
+        },
+        {
+          "title": "Azúcar",
+          "value": "4 cucharadas"
+        },
+        {
+          "title": "Agua",
+          "value": "6 tazas"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Corta los limones en trozos y licua con el agua y el azúcar",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar la mezcla en una jarra con hielos",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Decora al gusto",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
