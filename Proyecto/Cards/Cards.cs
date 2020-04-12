@@ -67,7 +67,7 @@ namespace Proyecto.Cards
             };
             return adaptiveCardAttachment;
         }
-
+       
         public static Attachment vodkaTonicCard()
         {
             // combine path for cross platform support
@@ -86,6 +86,85 @@ namespace Proyecto.Cards
         {
             // combine path for cross platform support
             string[] paths = { ".", "Cards", "coctelJulioCard.json" };
+            var adaptiveCardJson = File.ReadAllText(Path.Combine(paths));
+
+            var adaptiveCardAttachment = new Attachment()
+            {
+                ContentType = "application/vnd.microsoft.card.adaptive",
+                Content = JsonConvert.DeserializeObject(adaptiveCardJson),
+            };
+            return adaptiveCardAttachment;
+        }
+        public static Attachment Shirleytemple()
+        {
+            // combine path for cross platform support
+            string[] paths = { ".", "Cards", "Shirleytemple.json" };
+            var adaptiveCardJson = File.ReadAllText(Path.Combine(paths));
+
+            var adaptiveCardAttachment = new Attachment()
+            {
+                ContentType = "application/vnd.microsoft.card.adaptive",
+                Content = JsonConvert.DeserializeObject(adaptiveCardJson),
+            };
+            return adaptiveCardAttachment;
+        }
+        public static Attachment mojitoCard()
+        {
+            // combine path for cross platform support
+            string[] paths = { ".", "Cards", "mojitoCard.json" };
+            var adaptiveCardJson = File.ReadAllText(Path.Combine(paths));
+
+            var adaptiveCardAttachment = new Attachment()
+            {
+                ContentType = "application/vnd.microsoft.card.adaptive",
+                Content = JsonConvert.DeserializeObject(adaptiveCardJson),
+            };
+            return adaptiveCardAttachment;
+        }
+        public static Attachment pinadaCard()
+        {
+            // combine path for cross platform support
+            string[] paths = { ".", "Cards", "pinadaCard.json" };
+            var adaptiveCardJson = File.ReadAllText(Path.Combine(paths));
+
+            var adaptiveCardAttachment = new Attachment()
+            {
+                ContentType = "application/vnd.microsoft.card.adaptive",
+                Content = JsonConvert.DeserializeObject(adaptiveCardJson),
+            };
+            return adaptiveCardAttachment;
+        }
+       
+        public static Attachment sanClementeCard()
+        {
+            // combine path for cross platform support
+            string[] paths = { ".", "Cards", "sanClementeCard.json" };
+            var adaptiveCardJson = File.ReadAllText(Path.Combine(paths));
+
+            var adaptiveCardAttachment = new Attachment()
+            {
+                ContentType = "application/vnd.microsoft.card.adaptive",
+                Content = JsonConvert.DeserializeObject(adaptiveCardJson),
+            };
+            return adaptiveCardAttachment;
+        }
+        public static Attachment limonadaCard()
+        {
+            // combine path for cross platform support
+            string[] paths = { ".", "Cards", "limonadaCard.json" };
+            var adaptiveCardJson = File.ReadAllText(Path.Combine(paths));
+
+            var adaptiveCardAttachment = new Attachment()
+            {
+                ContentType = "application/vnd.microsoft.card.adaptive",
+                Content = JsonConvert.DeserializeObject(adaptiveCardJson),
+            };
+            return adaptiveCardAttachment;
+        }
+        public static Attachment naranjadaCard()
+        {
+            // combine path for cross platform support
+            string[] paths = { ".", "Cards", "naranjadaCard.json" };
             var adaptiveCardJson = File.ReadAllText(Path.Combine(paths));
 
             var adaptiveCardAttachment = new Attachment()

@@ -35,6 +35,7 @@ namespace Proyecto.Dialogs
             //se declaran los dialogos choice para las opciones
             //y WaterFall para los dialogos en cascada
             AddDialog(new AlcoholDialog());  //se delara el dialogo que inicializara a el dialogo de alcohol
+            AddDialog(new NormalDialog());
 
             AddDialog(new ChoicePrompt(nameof(ChoicePrompt))); //Se declara el dialogo de las opciones
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), new WaterfallStep[] //Se declara la secuencia principal de dialogos
@@ -70,7 +71,7 @@ namespace Proyecto.Dialogs
             }
             else if (((FoundChoice)stepContext.Result).Value == "Normal")
             {
-                reply = MessageFactory.Text("Normal");
+                return await stepContext.BeginDialogAsync(nameof(NormalDialog), null, cancellationToken);
             }
             else
             {
@@ -95,7 +96,7 @@ namespace Proyecto.Dialogs
             var Options = new List<Choice>()
             {
                 new Choice() { Value = "Alcoholica", Synonyms = new List<string>() { "Alcohol","Alcoholicas" } },
-                new Choice() { Value = "Normal", Synonyms = new List<string>() { "Normales" } },
+                new Choice() { Value = "Normal", Synonyms = new List<string>() { "Normales","Normal","Sin Alcohol" } },
                 new Choice() { Value = "Cancelar", Synonyms = new List<string>() { "Atras","Adios","Volver" } },
             };
 
