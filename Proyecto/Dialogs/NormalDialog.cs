@@ -49,7 +49,7 @@ namespace Proyecto.Dialogs
                 case "Soda":
                     // Display an Adaptive Card
                     reply.AttachmentLayout = AttachmentLayoutTypes.Carousel; //le decimos que se envien en forma de carrucel
-                    reply.Attachments.Add(Cards.Cards.CreateAdaptiveCardAttachment()); //se añade al "carrucel" cada tarjeta, segun la bebida
+                    ///reply.Attachments.Add(Cards.Cards.CreateAdaptiveCardAttachment()); //se añade al "carrucel" cada tarjeta, segun la bebida
                     reply.Attachments.Add(Cards.Cards.mojitoCard());
                     reply.Attachments.Add(Cards.Cards.Shirleytemple());
                     reply.Attachments.Add(Cards.Cards.sanClementeCard());
@@ -57,7 +57,7 @@ namespace Proyecto.Dialogs
                 case "Jugo":
                     // Display an AnimationCard.
                     reply.AttachmentLayout = AttachmentLayoutTypes.Carousel; //le decimos que se envien en forma de carrucel
-                    reply.Attachments.Add(Cards.Cards.CreateAdaptiveCardAttachment()); //se añade al "carrucel" cada tarjeta, segun la bebida
+                    //reply.Attachments.Add(Cards.Cards.CreateAdaptiveCardAttachment()); //se añade al "carrucel" cada tarjeta, segun la bebida
                     reply.Attachments.Add(Cards.Cards.limonadaCard());
                     reply.Attachments.Add(Cards.Cards.naranjadaCard());
                     //reply.Attachments.Add(Cards.GetAnimationCard().ToAttachment());
@@ -73,7 +73,7 @@ namespace Proyecto.Dialogs
                 case "Agua":
                     // Display a HeroCard.
                     reply.AttachmentLayout = AttachmentLayoutTypes.Carousel; //le decimos que se envien en forma de carrucel
-                    reply.Attachments.Add(Cards.Cards.CreateAdaptiveCardAttachment()); //se añade al "carrucel" cada tarjeta, segun la bebida
+                    //reply.Attachments.Add(Cards.Cards.CreateAdaptiveCardAttachment()); //se añade al "carrucel" cada tarjeta, segun la bebida
                     reply.Attachments.Add(Cards.Cards.limonadaCard());
                     reply.Attachments.Add(Cards.Cards.naranjadaCard());
                     //reply.Attachments.Add(Cards.GetHeroCard().ToAttachment());
