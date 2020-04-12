@@ -34,7 +34,7 @@ namespace Proyecto.Dialogs
             return await stepContext.PromptAsync(nameof(ChoicePrompt), options, cancellationToken);
         }
 
-        private async Task<DialogTurnResult> ChoiceCardStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
+        private async Task<DialogTurnResult> ShowCardStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             // Cards are sent as Attachments in the Bot Framework.
             // So we need to create a list of attachments for the reply activity.
