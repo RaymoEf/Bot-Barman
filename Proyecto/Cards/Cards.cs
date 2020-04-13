@@ -164,7 +164,7 @@ namespace Proyecto.Cards
         public static Attachment naranjadaCard()
         {
             // combine path for cross platform support
-            string[] paths = { ".", "Cards", "naranjadaCard.json" };
+            string[] paths = { ".", "Cards", "naranjada.json" };
             var adaptiveCardJson = File.ReadAllText(Path.Combine(paths));
 
             var adaptiveCardAttachment = new Attachment()
