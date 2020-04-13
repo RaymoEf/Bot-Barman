@@ -1,0 +1,125 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Clericot"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://cdn2.cocinadelirante.com/sites/default/files/images/2018/05/como-hacer-clericot-con-vodka-para-el-mundial.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Vino Tinto ",
+          "value": "2 tazas "
+        },
+        {
+          "title": "Agua mineral",
+          "value": "1 taza"
+        },
+        {
+          "title": "Refresco de limón",
+          "value": "1 taza"
+        },
+        {
+          "title": "Manzana verde o roja (Al gusto)",
+          "value": "1 pz (en cuadros)"
+        },
+        {
+          "title": "Fresas o durazno (Al gusto)",
+          "value": "2 fresas o 1/2 durazno"
+        },
+        {
+          "title": "Hielos",
+          "value": "Al gusto"
+        }
+
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Colocar hielos al gusto en una jarra",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar el vino",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar el agua mineral",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar refresco de limón y manzana picada",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar la fresa y el durazno",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Mezcla un poco cuidando de no quitar el gas.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-finalmente sirve en un vaso o copa",
+      "wrap": true
+    }
+
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

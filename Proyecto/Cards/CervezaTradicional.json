@@ -1,0 +1,93 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Cerveza Tradicional"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSogfeH5PNW_qRKxsE98XWC7a0NkH-ixO5kL5PO-Sf4ZWURMvPx&usqp=CAU",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Cerveza (clara, obscura, a su gusto)",
+          "value": "450ml"
+        },
+        {
+          "title": "Limón.",
+          "value": "Al gusto "
+        },
+        {
+          "title": "Hielos",
+          "value": "Opcional"
+        }
+
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vaciar Cerveza en un vaso",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Añadir jugo de un limon al gusto",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar unos hielos (opcional).",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
+

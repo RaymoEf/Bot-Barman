@@ -1,0 +1,91 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Jugo Verde"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://www.superama.com.mx/views/micrositio/recetas/images/backtoschool/jugo-verde/Web_fotoreceta.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Fruta pepino, apio, acelga",
+          "value": "250g moler en la licuadora"
+        },
+        {
+          "title": "Hojas de menta",
+          "value": "3 hojitas"
+        },
+        {
+          "title": "Agua, agua de manzana",
+          "value": "1 taza de cada una"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir el agua en una jarra",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir el la fruta ya molida",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar las hojas de menta",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

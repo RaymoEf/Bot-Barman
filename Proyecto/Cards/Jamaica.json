@@ -1,0 +1,91 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Agua Jamaica"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://dam.cocinafacil.com.mx/wp-content/uploads/2018/11/beneficios-del-agua-de-jamaica.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Flor de Jamaica",
+          "value": "2 tazas"
+        },
+        {
+          "title": "Azucar",
+          "value": "4 cucharadas"
+        },
+        {
+          "title": "Agua",
+          "value": "6 tazas"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar 6 tazas de agua hirviendo",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar las 2 tazas de azucar",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Al final colocar hielos al gusto",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

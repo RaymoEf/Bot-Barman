@@ -66,8 +66,10 @@ namespace Proyecto.Dialogs
                     reply.Attachments.Add(Cards.Cards.manhattanCard());
                     break;
                 case "Tequila":
-                    // Display an AnimationCard.
-                    //reply.Attachments.Add(Cards.GetAnimationCard().ToAttachment());
+                    reply.AttachmentLayout = AttachmentLayoutTypes.Carousel;
+                    reply.Attachments.Add(Cards.Cards.TequilaSunrise());
+                    reply.Attachments.Add(Cards.Cards.MexicanMule());
+                    reply.Attachments.Add(Cards.Cards.NieblasDelCaribe());
                     break;
                 case "Vodka":
                     // Display an AudioCard
@@ -77,12 +79,16 @@ namespace Proyecto.Dialogs
                     reply.Attachments.Add(Cards.Cards.coctelJulioCard());
                     break;
                 case "Cerveza":
-                    // Display a HeroCard.
-                    //reply.Attachments.Add(Cards.GetHeroCard().ToAttachment());
+                    reply.AttachmentLayout = AttachmentLayoutTypes.Carousel;
+                    reply.Attachments.Add(Cards.Cards.Michelada());
+                    reply.Attachments.Add(Cards.Cards.LaCubana());
+                    reply.Attachments.Add(Cards.Cards.CervezaTradicional());
                     break;
                 case "Vino":
-                    // Display a ReceiptCard.
-                    //reply.Attachments.Add(Cards.GetReceiptCard().ToAttachment());
+                    reply.AttachmentLayout = AttachmentLayoutTypes.Carousel;
+                    reply.Attachments.Add(Cards.Cards.QueenCharlotte());
+                    reply.Attachments.Add(Cards.Cards.Calimocho());
+                    reply.Attachments.Add(Cards.Cards.Clericot());
                     break;
                 default:
                     return await stepContext.ReplaceDialogAsync(nameof(MainDialog), null, cancellationToken); //Regresar al dialogo principal en caso de seleccionar la opcion de volver

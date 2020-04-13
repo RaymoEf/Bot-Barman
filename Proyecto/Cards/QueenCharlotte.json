@@ -1,0 +1,108 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Queen Charlotte"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://img.vixdata.io/pd/webp-large/es/sites/default/files/imj/elgrancatador/r/recetas-de-tragos-con-vino-tinto-9.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Vino Tinto ",
+          "value": "2 onzas"
+        },
+        {
+          "title": "Jarabe de granadina",
+          "value": "1 onza"
+        },
+        {
+          "title": "Refresco de lima-limón",
+          "value": "1 onza"
+        },
+        {
+          "title": "Hielos",
+          "value": "Al gusto"
+        }
+
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Colocar hielos al gusto en un vaso",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vierte el vino tinto",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Despues Vierte la granadina",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Rellena con refresco de lima-limón",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-finalmente revuelve y sirve.",
+      "wrap": true
+    }
+
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
+

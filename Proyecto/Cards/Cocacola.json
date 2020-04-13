@@ -1,0 +1,91 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Cocacola"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://image.shutterstock.com/image-photo/chiangmai-thailand-jan-2-2016-260nw-549304309.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "CocaCola",
+          "value": "600ml"
+        },
+        {
+          "title": "Necesita",
+          "value": "En vaso"
+        },
+        {
+          "title": "Hielo",
+          "value": "Al gusto"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir Cocacola en el vaso",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Acompañar con Hielos",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

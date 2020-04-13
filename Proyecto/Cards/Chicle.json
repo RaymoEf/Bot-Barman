@@ -1,0 +1,91 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Soda Chicle"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://japonpop.japonshop.com/wp-content/uploads/2016/06/gelatina-barr-bubblegum-japonshop16-620x463.png",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Soda Chicle",
+          "value": "600ml"
+        },
+        {
+          "title": "Frambuesas",
+          "value": "3 piezas"
+        },
+        {
+          "title": "Hielo",
+          "value": "Al gusto"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir la soda de chicle en el vaso",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Colocar los hielos al gusto",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir 3 frambuesas al gusto",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

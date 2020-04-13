@@ -1,0 +1,91 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Soda de Sabor"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://www.smartnfinal.com.mx/wp-content/uploads/2018/10/97205-Soda-sabores-surtidos-Pepsi-355-ml-24-pz.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Soda de Sabor",
+          "value": "600ml"
+        },
+        {
+          "title": "Necesita",
+          "value": "En vaso"
+        },
+        {
+          "title": "Hielo",
+          "value": "Al gusto"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir Soda en el vaso",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Acompañar con Hielos",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

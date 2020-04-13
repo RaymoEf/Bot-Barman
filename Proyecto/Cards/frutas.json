@@ -1,0 +1,91 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Futas Frescas"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://d1uz88p17r663j.cloudfront.net/original/a2f113222b6375161156ba6f9e418247_agua_de_frutas_1.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Fruta Manzana,guayaba, fresas, uvas",
+          "value": "250g picada en cubos"
+        },
+        {
+          "title": "Leche Clavel",
+          "value": "1 lata"
+        },
+        {
+          "title": "Agua",
+          "value": "4 tazas"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir las 4 tazas de agua",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir la leche clavel",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir fruta picada y colocar azucar al gusto",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

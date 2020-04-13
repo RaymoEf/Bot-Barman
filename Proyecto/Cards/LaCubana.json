@@ -1,0 +1,115 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "La Cubana"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://michelada.mx/img/recipes/xcubana.jpg.pagespeed.ic.98agYA2K7a.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Cerveza (clara, obscura, a su gusto)",
+          "value": "450ml"
+        },
+        {
+          "title": "Limón.",
+          "value": "Al gusto "
+        },
+        {
+          "title": "Sal ",
+          "value": "Al gusto"
+        },
+        {
+          "title": "Chile piquín en polvo",
+          "value": "Al gusto"
+        },
+        {
+          "title": "Salsas: salsa inglesa, jugo Maggi, salsa Tabasco",
+          "value": "Al gusto"
+        },
+        {
+          "title": "Hielos",
+          "value": "Opcional"
+        }
+
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Escarchar un vaso (poner en el borde) con sal y chile piquín",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Añadir el jugo de limón",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar unos hielos (opcional).",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar las salsas",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-finalmente verter la cerveza",
+      "wrap": true
+    }
+  
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

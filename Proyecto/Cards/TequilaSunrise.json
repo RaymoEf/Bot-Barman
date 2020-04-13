@@ -1,0 +1,92 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Tequila Sunrise"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://www.culinaryhill.com/wp-content/uploads/2019/06/Tequila-Sunrise-Culinary-Hill-LR-02.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Tequila",
+          "value": "60ml"
+        },
+        {
+          "title": "Zumo de naranja.",
+          "value": "180 ml"
+        },
+        {
+          "title": "Granadina",
+          "value": "Al gusto"
+        }
+
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir el tequila en un vaso alto con hielo",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Después ponemos el tequila y zumo de naranja natural hasta arriba",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Añadimos la granadina y dejamos caer hasta que vaya al fondo.",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

@@ -59,7 +59,8 @@ namespace Proyecto.Dialogs
                     reply.AttachmentLayout = AttachmentLayoutTypes.Carousel; //le decimos que se envien en forma de carrucel
                     //reply.Attachments.Add(Cards.Cards.CreateAdaptiveCardAttachment()); //se añade al "carrucel" cada tarjeta, segun la bebida
                     reply.Attachments.Add(Cards.Cards.limonadaCard());
-                    reply.Attachments.Add(Cards.Cards.naranjadaCard());
+                    reply.Attachments.Add(Cards.Cards.naranjadaCard()); 
+                    reply.Attachments.Add(Cards.Cards.Verde());
                     //reply.Attachments.Add(Cards.GetAnimationCard().ToAttachment());
                     break;
                 case "Coctel":
@@ -74,13 +75,16 @@ namespace Proyecto.Dialogs
                     // Display a HeroCard.
                     reply.AttachmentLayout = AttachmentLayoutTypes.Carousel; //le decimos que se envien en forma de carrucel
                     //reply.Attachments.Add(Cards.Cards.CreateAdaptiveCardAttachment()); //se añade al "carrucel" cada tarjeta, segun la bebida prueba 1
-                    reply.Attachments.Add(Cards.Cards.limonadaCard());
-                    reply.Attachments.Add(Cards.Cards.naranjadaCard());
+                    reply.Attachments.Add(Cards.Cards.Jamaica());
+                    reply.Attachments.Add(Cards.Cards.Orchata());
+                    reply.Attachments.Add(Cards.Cards.frutas());
                     //reply.Attachments.Add(Cards.GetHeroCard().ToAttachment());
                     break;
                 case "Café":
-                    // Display a HeroCard.
-                    //reply.Attachments.Add(Cards.GetHeroCard().ToAttachment());
+                    reply.AttachmentLayout = AttachmentLayoutTypes.Carousel;
+                    reply.Attachments.Add(Cards.Cards.Capuccino());
+                    reply.Attachments.Add(Cards.Cards.CafeExpresso());
+                    reply.Attachments.Add(Cards.Cards.CafeAmericano());
                     break;
 
                 default:

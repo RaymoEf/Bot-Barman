@@ -1,0 +1,91 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Cafe Expresso"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://dam.cocinafacil.com.mx/wp-content/uploads/2013/04/cafe-espresso.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Cafe Expresso",
+          "value": "60ml"
+        },
+        {
+          "title": "Agua",
+          "value": "Al gusto"
+        },
+        {
+          "title": "Cafe",
+          "value": "Al gusto"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir el agua en la taza",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir el cafe sobre el agua",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Calentar al gusto",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

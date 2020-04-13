@@ -1,0 +1,91 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Horchata"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2019/11/receta-licor-de-horchata.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Arroz",
+          "value": "250g"
+        },
+        {
+          "title": "Canela",
+          "value": "3 varas"
+        },
+        {
+          "title": "Agua",
+          "value": "6 tazas"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir el arroz en agua y dejar remojando",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Remojar 3 varas de canela durante 15 min",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Poner azucar al gusto",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

@@ -1,0 +1,103 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Michelada"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://ep00.epimg.net/elcomidista/imagenes/2012/08/23/receta/1345698000_134569_1345698000_noticia_normal.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Cerveza (clara, obscura, a su gusto)",
+          "value": "450ml"
+        },
+        {
+          "title": "Limón.",
+          "value": "Al gusto "
+        },
+        {
+          "title": "Sal ",
+          "value": "Al gusto"
+        },
+        {
+          "title": " Hielos ",
+          "value": "Opcional"
+        }
+
+
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Escarchar un vaso (poner sal en el borde)",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Añadir el jugo de limón",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar unos hielos (opcional).",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Verter la cerveza.",
+      "wrap": true
+    }
+   
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

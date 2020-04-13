@@ -1,0 +1,91 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Cafe Americano"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://img77.uenicdn.com/image/upload/v1579790845/business/08d2e60d-bae4-4ec6-80e1-8ba364136d9f/imagesjpg.jpg",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Agua Hirviendo",
+          "value": "600ml"
+        },
+        {
+          "title": "Taza",
+          "value": "Al gusto"
+        },
+        {
+          "title": "Cafe",
+          "value": "De grano en la maquina"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir el agua hirviendo en la taza",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Vertir el cafe sobre el agua",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Poner azucar al gusto",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}

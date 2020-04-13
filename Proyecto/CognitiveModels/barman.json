@@ -1,0 +1,629 @@
+{
+  "luis_schema_version": "6.0.0",
+  "intents": [
+    {
+      "name": "especificar tipo",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "paedir alcohol",
+      "features": []
+    },
+    {
+      "name": "pedir bebida",
+      "features": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "agua",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "alcohol",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "bejistrajo",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "cafe",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "cafetin",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "cafetucho",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "cerveza",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "chesco",
+      "children": [],
+      "roles": [
+        "babida"
+      ],
+      "features": []
+    },
+    {
+      "name": "coctel",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "combinado",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "jugo",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "normal",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "refresco",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "soda",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "tequila",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "vino",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "vodka",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "whiskey",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "zumo",
+      "children": [],
+      "roles": [],
+      "features": []
+    }
+  ],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "algo con bourbon",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "whiskey",
+          "startPos": 5,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "algo con cerveza",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "cerveza",
+          "startPos": 9,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "algo con tequila",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "tequila",
+          "startPos": 9,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "algo con whiskey",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "whiskey",
+          "startPos": 5,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "algo de alcohol",
+      "intent": "especificar tipo",
+      "entities": [
+        {
+          "entity": "alcohol",
+          "startPos": 8,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "algo no alcoholico",
+      "intent": "especificar tipo",
+      "entities": [
+        {
+          "entity": "normal",
+          "startPos": 5,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "algo normal",
+      "intent": "especificar tipo",
+      "entities": [
+        {
+          "entity": "normal",
+          "startPos": 5,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "algo sin alcohol",
+      "intent": "especificar tipo",
+      "entities": [
+        {
+          "entity": "normal",
+          "startPos": 5,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "dame bourbon",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "whiskey",
+          "startPos": 5,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "dame cerveza",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "cerveza",
+          "startPos": 5,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "dame tequila",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "tequila",
+          "startPos": 5,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "dame un chesco",
+      "intent": "pedir bebida",
+      "entities": [
+        {
+          "entity": "chesco",
+          "startPos": 8,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "dame un refresco",
+      "intent": "pedir bebida",
+      "entities": [
+        {
+          "entity": "refresco",
+          "startPos": 8,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "dame una bebida sin alcohol",
+      "intent": "especificar tipo",
+      "entities": [
+        {
+          "entity": "normal",
+          "startPos": 16,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "dame una chela",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "cerveza",
+          "startPos": 9,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "dame una cheve",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "cerveza",
+          "startPos": 9,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "dame una soda",
+      "intent": "pedir bebida",
+      "entities": [
+        {
+          "entity": "soda",
+          "startPos": 9,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "dame whiskey",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "whiskey",
+          "startPos": 5,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "dame whisky",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "whiskey",
+          "startPos": 5,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "deseo una bebida alcoholica",
+      "intent": "especificar tipo",
+      "entities": [
+        {
+          "entity": "alcohol",
+          "startPos": 17,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "que tienes con alcohol?",
+      "intent": "especificar tipo",
+      "entities": [
+        {
+          "entity": "alcohol",
+          "startPos": 15,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "que tienes sin alcohol?",
+      "intent": "especificar tipo",
+      "entities": [
+        {
+          "entity": "normal",
+          "startPos": 11,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "quiero alcohol",
+      "intent": "especificar tipo",
+      "entities": [
+        {
+          "entity": "alcohol",
+          "startPos": 7,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "quiero cerveza",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "cerveza",
+          "startPos": 7,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "quiero tequila",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "tequila",
+          "startPos": 7,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "quiero un chesco",
+      "intent": "pedir bebida",
+      "entities": [
+        {
+          "entity": "chesco",
+          "startPos": 10,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "quiero un refresco",
+      "intent": "pedir bebida",
+      "entities": [
+        {
+          "entity": "refresco",
+          "startPos": 10,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "quiero una bebida alcoholica",
+      "intent": "especificar tipo",
+      "entities": [
+        {
+          "entity": "alcohol",
+          "startPos": 18,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "quiero una chela",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "cerveza",
+          "startPos": 11,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "quiero una cheve",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "cerveza",
+          "startPos": 11,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "quiero una soda",
+      "intent": "pedir bebida",
+      "entities": [
+        {
+          "entity": "soda",
+          "startPos": 11,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "quiero whiskey",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "whiskey",
+          "startPos": 7,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "un chesco por favor",
+      "intent": "pedir bebida",
+      "entities": [
+        {
+          "entity": "chesco",
+          "startPos": 3,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "un poco de bourbon",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "whiskey",
+          "startPos": 11,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "un poco de whiskey",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "whiskey",
+          "startPos": 11,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "un refresco por favor",
+      "intent": "pedir bebida",
+      "entities": [
+        {
+          "entity": "refresco",
+          "startPos": 3,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "un tequila",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "tequila",
+          "startPos": 3,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "un whiskey",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "whiskey",
+          "startPos": 3,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "una bebida sin alcohol",
+      "intent": "especificar tipo",
+      "entities": [
+        {
+          "entity": "normal",
+          "startPos": 11,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "una cerveza",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "cerveza",
+          "startPos": 4,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "una chela",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "cerveza",
+          "startPos": 4,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "una cheve",
+      "intent": "paedir alcohol",
+      "entities": [
+        {
+          "entity": "cerveza",
+          "startPos": 4,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "una soda porfavor",
+      "intent": "pedir bebida",
+      "entities": [
+        {
+          "entity": "soda",
+          "startPos": 4,
+          "endPos": 7
+        }
+      ]
+    }
+  ],
+  "versionId": "0.1",
+  "name": "barman",
+  "desc": "",
+  "culture": "es-mx",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
