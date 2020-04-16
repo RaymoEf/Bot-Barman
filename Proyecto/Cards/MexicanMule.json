@@ -1,0 +1,107 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "size": "Medium",
+                  "weight": "Bolder",
+                  "text": "Mexican Mule"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "Image",
+                  "altText": "",
+                  "url": "https://d3f5rf6vpkkrog.cloudfront.net/images/valoraciones/0017/9406/mexican_mule.png?1486553463",
+                  "size": "Medium"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "spacing": "None",
+              "text": "Ingredientes:",
+              "isSubtle": true,
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Tequila",
+          "value": "45ml"
+        },
+        {
+          "title": "Zumo de lima.",
+          "value": "Media lima"
+        },
+        {
+          "title": "Jarabe de azucar ",
+          "value": "8ml"
+        },
+        {
+          "title": "Refresco de ginger beer ",
+          "value": "Al gusto"
+        }
+
+
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Agregar hielo en un vaso alto hasta la mitad aproximadamente",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Exprimimos media lima",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Añadimos el jarabe de azúcar.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Añadimos el tequila y lo mezclamos todo.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "-Rellenamos el vaso con el refresco de ginger beer.",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0"
+}
